@@ -1,59 +1,80 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>jQuery UI Datepicker - Localize calendar</title>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
-  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-  <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="datepicker-sh.js"></script>
+    <meta charset="utf-8">
+    <title>jQuery UI Datepicker - Localize calendar</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="datepicker-sh.js"></script>
 
-  
-  <script>
-  $(function() {
-    
-       $("#datepicker1").datepicker();
 
-    $("#datepicker2").datepicker({
-       numberOfMonths: 3,
-      showButtonPanel: true
-    });
+    <script>
+        $(function() {
 
-    //Inlude if one or more have included
-    //$("#datepicker").datepicker( $.datepicker.regional[ "sh" ] );
- 
-  });
-  </script>
+            $("#datepicker1").datepicker();
+
+            $("#datepicker2").datepicker({
+                numberOfMonths: 3,
+                showButtonPanel: true
+            });
+
+            //Include if one or more have included
+            //$("#datepicker").datepicker( $.datepicker.regional[ "sh" ] );
+
+        });
+    </script>
 </head>
+
 <body>
- 
 
- <div class="container" style="margin-top:5%">
 
-    
+    <div class="container" style="margin-top:5%">
 
-  <!-- Jumbotron -->
-  <div class="jumbotron">
-    <h2>Sinhala - jQueryUI - Datepicker - Localization</h2>
-    <p class="lead"> <div class="alert alert-success">Just Include <strong>datepicker-sh.js</strong> in your page, and inilialize date picker as <strong style="color:#000000"> $("#datepicker").datepicker($.datepicker.regional[ "sh"]);</strong>, </div>
-      <div class="col-md-12">
-           <div class="col-md-3"><label class="control-label">Short Datepicker: <input type="text" class="form-control" id="datepicker1"/></label></div>
-      <div class="col-md-3"><label class="control-label">Long Datepicker: <input type="text" class="form-control" id="datepicker2"/></label></div>
-      </div>
-   <p style="text-align:center;margin-top:10%;"><a class="btn btn-lg btn-info" href="https://github.com/andrewdex/jquery-datepicker-sinhala/archive/master.zip" role="button">Download : <strong style="color:white">datepicker-sh.js</strong></a></p>
-    </p>
-    <p style="margin-top:4%;text-align:center"><a class="btn btn-success" href="http://www.twitter.com/andrewdex" role="button">@andrewdex - Dilusha Gonagala</a></p>
-  </div>
 
-  
-      <!-- Site footer -->
-      <div class="footer">
-        <p>&copy; Dilusha Gonagala 2014</p>
-      </div>
 
-    </div> <!-- /container -->
- 
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <h2>Sinhala - jQueryUI - Datepicker - Localization</h2>
+            <p class="lead">
+                <div class="alert alert-success">Just Include
+                    <strong>datepicker-sh.js</strong>in your page, and inilialize date picker as
+                    <strong style="color:#000000">$("#datepicker").datepicker($.datepicker.regional[ "sh"]);</strong>,</div>
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <label class="control-label">Short Datepicker:
+                            <input type="text" class="form-control" id="datepicker1" />
+                        </label>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="control-label">Long Datepicker:
+                            <input type="text" class="form-control" id="datepicker2" />
+                        </label>
+                    </div>
+                </div>
+                <p style="text-align:center;margin-top:10%;">
+                    <a class="btn btn-lg btn-info" href="https://github.com/andrewdex/jquery-datepicker-sinhala/archive/master.zip" role="button">
+                        <strong style="color:#ffffff">Download</strong>
+                    </a>
+                </p>
+            </p>
+            <p style="margin-top:4%;text-align:center">
+                <a class="btn btn-success" href="http://www.twitter.com/andrewdex" role="button">@andrewdex - Dilusha Gonagala</a>
+            </p>
+        </div>
+
+
+        <!-- Site footer -->
+        <div class="footer">
+            <p>&copy; Dilusha Gonagala 2014</p>
+        </div>
+
+    </div>
+    <!-- /container -->
+
 </body>
+
 </html>
