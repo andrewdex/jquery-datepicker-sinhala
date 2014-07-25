@@ -12,7 +12,7 @@
 	}
 }(function( datepicker ) {
 
-datepicker.regional['sh'] = {
+datepicker.regional['lk-si'] = {
 	closeText: 'අවසන්',
 	prevText: 'පෙර',
 	nextText: 'ඊලග',
@@ -30,8 +30,8 @@ datepicker.regional['sh'] = {
 	isRTL: false,
 	showMonthAfterYear: false,
 	yearSuffix: ''};
-datepicker.setDefaults(datepicker.regional['sh']);
+datepicker.setDefaults(datepicker.regional['lk-si']);
 
-return datepicker.regional['sh'];
+return datepicker.regional['lk-si'];
 
 }));
